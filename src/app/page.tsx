@@ -21,7 +21,7 @@ const Header = () => {
     >
       <nav className="container mx-auto px-6 py-3">
         <div className="flex justify-between items-center">
-          <a href="#" className="text-3xl font-bold text-white">
+          <a href="#" className="text-2xl font-bold text-white">
             Bricxmen
           </a>
           <div className="hidden md:flex space-x-4">
@@ -82,7 +82,8 @@ const Section = ({
 const Home = () => (
   <Section id="home" title="Welcome to Bricxmen">
     <p className="text-xl text-center max-w-2xl">
-      Chicago's premier masonry experts, building dreams one brick at a time.
+      Chicago&apos;s premier masonry experts, building dreams one brick at a
+      time.
     </p>
     <motion.div
       animate={{ y: [0, 10, 0] }}

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { ChevronDoubleDownIcon } from "@heroicons/react/24/outline";
+import { ChevronDoubleDownIcon } from "@heroicons/react/16/solid";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
